@@ -1,0 +1,51 @@
+/* $ @rsrc.rc
+ *
+ * Copyright(C)2016 Hsiang Chen (³ÂÏé)
+ * This program may be freely redistributed under the terms of the GNU General Public License.
+ * */
+
+#include <afxres.h>
+
+#include "resource.h"
+
+IDI_FUN4C ICON "app.ico"
+
+IDD_FUN4C DIALOGEX 0, 0, 209, 157
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "Ms Shell Dlg", 0, 0, 1
+{
+    DEFPUSHBUTTON   "Go", IDOK, 151, 10, 50, 14
+    CONTROL         "", IDC_LISTVIEW, "SysListView32", WS_TABSTOP | WS_HSCROLL | WS_VSCROLL | WS_BORDER | LVS_ALIGNLEFT | LVS_REPORT, 6, 25, 195, 125
+    COMBOBOX        IDC_COMBOBOX, 5, 10, 140, 85, CBS_DROPDOWN | CBS_HASSTRINGS | CBS_AUTOHSCROLL
+}
+
+1 VERSIONINFO
+    FILEVERSION     6,1,7600,16385
+    PRODUCTVERSION  6,1,7600,16385
+    FILEOS          VOS_NT_WINDOWS32
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0x0000003F
+    FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904B0"
+        {
+            VALUE "CompanyName", "Hsiang Chen"
+            VALUE "FileDescription", "fun4c"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "fun4c"
+            VALUE "LegalCopyright", "Hsiang Chen. All rights reserved."
+            VALUE "OriginalFilename", "FUN4C.DLL"
+            VALUE "ProductName", "fun4c"
+            VALUE "ProductVersion", "1.0.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x04B0
+    }
+}
+
+// end.
