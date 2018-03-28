@@ -12,12 +12,6 @@ There is a series of Regular Expression matching (Fn.x for Function matching, Va
 
 [![Download notepadplusplus-plugin-fun4c](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/notepadplusplus-plugin-fun4c/files/latest/download)
 
-## Donation ##
-
-Alipay:
-
-![alipay](https://github.com/Hsiang-Chen/notepadplusplus-plugin-fun4c/blob/master/alipay_donate.png)
-
 # Fun4c - Noptepad++插件 #
 
 ## 简介 ##
@@ -31,10 +25,4 @@ Fun4c 是 Notepad++ 的一个插件 （win32/64 平台）。你可以用这个�
 ## sourceforge.net上的最新版 ##
 
 [![Download notepadplusplus-plugin-fun4c](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/notepadplusplus-plugin-fun4c/files/latest/download)
-
-## 捐助 ##
-
-如果你想捐助本项目的作者，用支付包刷一下下面的二维码向我付款，谢谢您的支持。
-
-![alipay](https://github.com/Hsiang-Chen/notepadplusplus-plugin-fun4c/blob/master/alipay_donate.png)
 

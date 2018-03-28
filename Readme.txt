@@ -1,5 +1,5 @@
 ﻿fun4c
-Copyright (C) 2016 Hsiang Chen ( 陈祥 )
+Copyright (C) 2016 Sean Chen ( 陈祥 )
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

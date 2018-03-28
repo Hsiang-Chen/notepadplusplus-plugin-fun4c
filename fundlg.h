@@ -1,6 +1,6 @@
 /* $ @fundlg.h
  *
- * Copyright(C)2016 Hsiang Chen (³ΒΟι)
+ * Copyright(C)2016 Sean Chen (³ΒΟι)
  * This program may be freely redistributed under the terms of the GNU General Public License.
  * */
  

@@ -1,6 +1,6 @@
 /* $ @main.c
  *
- * Copyright(C)2016 Hsiang Chen (³ΒΟι)
+ * Copyright(C)2016 Sean Chen (³ΒΟι)
  * This program may be freely redistributed under the terms of the GNU General Public License.
  * */
  
@@ -142,7 +142,7 @@ void show_funDlg()
 
 void show_aboutDlg()
 {
-	::ShellAbout(nppData._nppHandle, TEXT("About...#fun4c (Notepad++ Plugin)"), TEXT("Copyright (C) 2016 Hsiang Chen ( ³ΒΟι )"), hIcon);
+	::ShellAbout(nppData._nppHandle, TEXT("About...#fun4c (Notepad++ Plugin)"), TEXT("Copyright (C) 2016 Sean Chen ( ³ΒΟι )"), hIcon);
 }
 
 // end.
