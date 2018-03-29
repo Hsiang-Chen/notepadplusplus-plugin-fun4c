@@ -1,6 +1,6 @@
 /* $ @rsrc.rc
  *
- * Copyright(C)2016 Sean Chen (³ÂÏé)
+ * Copyright(C)2016 chenxiang
  * This program may be freely redistributed under the terms of the GNU General Public License.
  * */
 
@@ -32,11 +32,11 @@ FONT 8, "Ms Shell Dlg", 0, 0, 1
     {
         BLOCK "040904B0"
         {
-            VALUE "CompanyName", "Sean Chen"
+            VALUE "CompanyName", "Hsiang Chen"
             VALUE "FileDescription", "fun4c"
             VALUE "FileVersion", "1.0.0"
             VALUE "InternalName", "fun4c"
-            VALUE "LegalCopyright", "Sean Chen. All rights reserved."
+            VALUE "LegalCopyright", "Hsiang Chen. All rights reserved."
             VALUE "OriginalFilename", "FUN4C.DLL"
             VALUE "ProductName", "fun4c"
             VALUE "ProductVersion", "1.0.0"

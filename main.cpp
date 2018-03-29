@@ -1,6 +1,6 @@
 /* $ @main.c
  *
- * Copyright(C)2016 Sean Chen (³ÂÏé)
+ * Copyright(C)2016 chenxiang ( é™ˆç¥¥ )
  * This program may be freely redistributed under the terms of the GNU General Public License.
  * */
  
@@ -49,7 +49,7 @@ BOOL WINAPI DllEntryPoint(HINSTANCE hInstDll, DWORD dwReason, LPVOID res)
 		break;
 		case DLL_PROCESS_DETACH:
 			{
-				// ±£´æÉèÖÃ /
+				// Â±Â£Â´Ã¦Ã‰Ã¨Ã–Ãƒ /
 				settings.save();
 				fundlg.destroy();
 			}
@@ -72,7 +72,7 @@ extern "C" __declspec(dllexport) void setInfo(NppData dat)
 {
 	nppData = dat;
 	
-	// ¼ÓÔØÉèÖÃ /
+	// Â¼Ã“Ã”Ã˜Ã‰Ã¨Ã–Ãƒ /
 	settings.npp(nppData._nppHandle);
 	settings.load();
 }
@@ -142,7 +142,7 @@ void show_funDlg()
 
 void show_aboutDlg()
 {
-	::ShellAbout(nppData._nppHandle, TEXT("About...#fun4c (Notepad++ Plugin)"), TEXT("Copyright (C) 2016 Sean Chen ( ³ÂÏé )"), hIcon);
+	::ShellAbout(nppData._nppHandle, TEXT("About...#fun4c (Notepad++ Plugin)"), TEXT("Copyright (C) 2016 Hsiang Chen ( Â³Ã‚ÃÃ© )"), hIcon);
 }
 
 // end.
